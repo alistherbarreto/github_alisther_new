@@ -8,4 +8,8 @@ public class QueueProcess {
 		arr = new ArrayList<>();
 	}
 
+	void add(Object obj) {
+		arr.add(arr.size(), obj);
+	}
+
 }
