@@ -12,4 +12,10 @@ public class QueueProcess {
 		arr.add(arr.size(), obj);
 	}
 
+	Object remove() {
+		Object temp = arr.get(0);
+		arr.remove(0);
+		return temp;
+	}
+
 }
