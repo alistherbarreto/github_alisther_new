@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class QueueProcess {
+public class QueueProcessArrayList {
 
 	private ArrayList<Object> arr;
 
-	public QueueProcess() {
+	public QueueProcessArrayList() {
 		arr = new ArrayList<>();
 	}
 
