@@ -18,4 +18,7 @@ public class QueueProcess {
 		return temp;
 	}
 
+	ArrayList<Object> disp() {
+		return arr;
+	}
 }
