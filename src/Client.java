@@ -3,12 +3,9 @@ public class Client {
 
 	public static void main(String[] args) {
 
-		/*****
-		 * Queue Using arrayList
-		 */
-		System.out.println("ArrayList");
+		/*arrayList*/
 
-		QueueProcessArrayList queueList = new QueueProcessArrayList();
+		myarraylist queueList = new myarraylist();
 		queueList.add(5);
 		queueList.add(6);
 		queueList.add("Hello World");
@@ -18,14 +15,10 @@ public class Client {
 		System.out.println(queueList.disp());
 
 		System.out.println();
-		System.out.println();
-		System.out.println();
+	
+		/*arrays*/
 
-		/*****
-		 * Queue Using arrays
-		 */
-		System.out.println("Arrays");
-		QueueProcessArrays queueArray = new QueueProcessArrays(3);
+		myarray queueArray = new myarray(3);
 		queueArray.disp();
 		System.out.println(queueArray.add(5));
 		System.out.println(queueArray.add(6));
